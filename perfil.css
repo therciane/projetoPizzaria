@@ -1,0 +1,68 @@
+body {
+    font-family: Apple Chancery, cursive;
+    background-color: rgb(178,34,34);
+    justify-content: center;
+    align-items: center;
+    padding: 1px;
+    margin: 0;
+}
+
+header{
+    background-color: rgb(60,179,113);
+    margin: 1px autos;
+    padding: 0;
+    text-align: center;
+    font-family: Apple Chancery, cursive;
+}
+
+#Cadastro{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman' , Times, serif;
+    padding: 0;
+}
+
+#formCadastro{
+    border-radius: 10px;
+    text-align: center;
+    font-family: Apple Chancery, cursive;
+    background-color: aliceblue;
+}
+
+.popup-fundo {
+    display: none;
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.popup-conteudo {
+    background-color: aliceblue;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    max-width: 400px;
+    box-shadow: rgb(60,179,113), rgb(178,34,34);
+}
+
+.popup-conteudo h3 {
+    color: rgb(178,34,34);
+}
+
+.popup-conteudo button {
+    background-color: rgb(178,34,34);
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.popup-conteudo button:hover {
+    background-color: rgb(60,179,113);
+}

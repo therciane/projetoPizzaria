@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedido feito!</title>
+    <link rel="stylesheet" href="pedidostyle.css">
+    <link rel="shortcut icon" href="Sabor & Tradição.png" type="image/x-icon">
+    <img src="logo - Sabor&Tradição.png" alt="logo" width="150">
+</head>
+<body>
+    <header>
+        <h2>Bem vindo a Pizzaria Sabor&Tradição!!</h2>
+        <a href="home.html" style="color: black;">Home</a>
+        <a href="cadarpio.html" style="color: black;">Cardápio</a>
+        <a href="pedido.html" style="color: black;">Fazer pedido</a>
+        <a href="acompanharPedido.html" style="color: black;">Acompnhar Pedido</a>
+        <a href="contato.html" style="color: black;">Fale conosco</a>
+        <a href="criarPerfil.html" style="color: black;">Seu perfil</a>
+    </header>
+
+    <script>
+        // Pega os dados do localStorage
+        document.getElementById("codigoPedido").innerText = localStorage.getItem("idPedido");
+        document.getElementById("pizzaPedido").innerText = localStorage.getItem("pizzaEscolhida");
+        document.getElementById("bebidaPedido").innerText = localStorage.getItem("bebidaEscolhida");
+    </script>
+    <p><h2>PARABÉNS VOCê ACABA DE FAZER SEU PEDIDO AQUI NA SABOR&TRADIÇÃO! PARA MAIS DETALHES APERTE <A href="acompanharPedido.html" style="color: black;">AQUI</A> ASSIM VOCÊ ACOMPNHA SEU PEDIDO</h2></p>
+    <img src="giphy.gif" alt="coração de pizza">
+</body>
+</html>

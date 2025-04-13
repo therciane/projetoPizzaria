@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criar Perfil</title>
+    <link rel="shortcut icon" href="Sabor & Tradição.png" type="image/x-icon">
+    <link rel="stylesheet" href="perfil.css">
+    <img src="logo - Sabor&Tradição.png" alt="logo" width="150">
+</head>
+<body>
+    <header>
+        <h2>Crie seu cadastro na Sabor&Tradição</h2>
+        <a href="home.html" style="color: black;">Home</a>
+        <a href="cadarpio.html" style="color: black;">Cardápio</a>
+        <a href="pedido.html" style="color: black;">Pedido</a>
+        <a href="acompanharPedido.html" style="color: black;">Acompanhe seu pedido</a>
+        <a href="contato.html" style="color: black;">Fale conosco</a>
+    </header>
+
+    <div id="cadastro" class="cadastroCliente">
+      <form action="#" id="formCadastro">
+        <h3>Informe seus dados abaixo:</h3>
+        Nome:
+        <input type="name"><br>
+        Endereço:
+        <input type="text"><br>
+        tipo
+        <!--selec para que o cliente selecione o que mais se enquadra a ele-->
+        <select>
+            <option>Casa</option>
+            <option>Apartamento</option>
+        </select>
+
+        Número:
+        <input type="number"><br>
+        Número de celular:
+        <input type="number"><br>
+        Número de CPF:
+        <input type="number"><br>
+        email:
+        <input type="email"><br>
+        confirmação de email:
+        <input type="email"><br>
+        Concorde com os termos de adesão e privacidade.
+        <input type="checkbox"><br>
+
+        <button>Cadastar</button>
+      </form>
+
+      <div class="popup-fundo" id="popup">
+        <div class="popup-conteudo">
+          <h3>Cadastro realizado com sucesso!</h3>
+          <p>Você será redirecionado para a pagina de perfil.</p>
+          <button onclick="irParaPedido()">OK</button>
+        </div>
+      </div>
+    
+      <!-- Script -->
+      <script>
+        const form = document.getElementById("formCadastro");
+        const popup = document.getElementById("popup");
+    
+        form.addEventListener("submit", function(event) {
+          event.preventDefault(); // impede envio real
+          popup.style.display = "flex"; // mostra o pop-up
+        });
+    
+        function irParaPedido() {
+          popup.style.display = "none";
+          window.location.href = "pedido.html"; // redireciona
+        }
+      </script>
+    </div>
+</body>
+</html>

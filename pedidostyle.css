@@ -1,0 +1,45 @@
+body {
+    font-family: Apple Chancery, cursive;
+    background-color: rgb(178,34,34);
+    justify-content: center;
+    align-items: center;
+    padding: 1px;
+    margin: 0;
+}
+
+header{
+    background-color: rgb(60,179,113);
+    margin: 1px autos;
+    padding: 0;
+    text-align: center;
+    font-family: Apple Chancery, cursive;
+}
+
+.form-container {
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgb(60,179,113);
+    width: 300px;
+}
+
+label {
+    display: flex;
+    margin-bottom: 5px;
+    color: rgb(178,34,34);
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(60,179,113);
+    border: none;
+    border-radius: 4px;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(60,179,113);
+}

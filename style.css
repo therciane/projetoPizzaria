@@ -1,0 +1,66 @@
+body{
+    background-color: rgb(178,34,34);
+}
+
+header{
+    background-color: rgb(60,179,113);
+    margin: 1px autos;
+    padding: 0;
+    text-align: center;
+    font-family: Apple Chancery, cursive;
+}
+
+#Principal{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#pizzadeCalabresa{
+    border-radius: 50px;
+    background-color: aliceblue;
+    text-align: center;
+    margin-left: 1px;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 20px;
+}
+
+#PizzaQuattroFormaggi{
+    border-radius: 50px;
+    background-color: aliceblue;
+    text-align: center;
+    margin-left: 1px;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 20px;
+}
+
+#PizzaSaborTradicao{
+    border-radius: 50px;
+    background-color: aliceblue;
+    text-align: center;
+    margin-left: 1px;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 20px;
+}
+
+#PizzaPeperoni{
+    border-radius: 50px;
+    background-color: aliceblue;
+    text-align: center;
+    margin-left: 1px;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 20px;
+}
+
+#PizzaMargherita{
+    border-radius: 50px;
+    background-color: aliceblue;
+    text-align: center;
+    margin-left: 1px;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 20px;
+}
+
+#Rodapé{
+    background-color:  rgb(60,179,113);
+    text-align: center;
+}

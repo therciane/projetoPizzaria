@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fale Conosco</title>
+    <link rel="shortcut icon" href="Sabor & Tradição.png" type="image/x-icon">
+    <link rel="stylesheet" href="contatoStyle.css">
+    <img src="logo - Sabor&Tradição.png" alt="logo" width="150">
+</head>
+<body>
+    <header>
+        <h2>Fale com a Sabor&Tradição</h2>
+        <a href="home.html" style="color: black;">Home</a>
+        <a href="cadarpio.html" style="color: black;">Cardápio</a>
+        <a href="pedido.html" style="color: black;">Fazer pedido</a>
+        <a href="contato.html" style="color: black;">Fale conosco</a>
+        <a href="criarPerfil.html" style="color: black;">Seu perfil</a>
+    </header>
+
+    <div id="Principal">
+        <form action="#" method="#" id="Formulario">
+            <input type="checkbox" id="sugestão" name="sugestão" value="Sugestão">
+            <label for="sugestão">Sugestão</label><br>
+            <input type="checkbox" id="elogio" name="elogio" value="Elogio">
+            <label for="elogio">Elogio</label><br>
+            <input type="checkbox" id="reclamação" name="reclamação" value="Reclamação">
+            <label for="elogio">Reclamação</label><br>
+            <textarea name="areadetexto" id="texto">Digite aqui!!</textarea> <br>
+            <input type="submit" value="Enviar">
+
+            <p><strong>Telefone para contato: </strong> <i>(11) 4002-8922 </i></p>
+            <p><strong>WhatsApp contato: </strong> <i>(11) 934002-8922 </i></p>
+            <p><strong>email para contato: </strong> <i>sabortradicao@hotmail.com </i></p>    
+            <p><strong>Endereço para contato: </strong> <i>Av. Aricanduva 455 </i></p>
+        </form>
+    </div>
+
+     <!-- Pop-up -->
+     <div class="popup-fundo" id="popup">
+        <div class="popup-conteudo">
+            <h1>Sua avaliação foi enviada com sucesso!!</h1>
+            <p><i>Em caso de reclamação, ela será analisada minuciosamente pela nossa equipe de marketing e qualidade</i></p>
+            <h5>A Sabor&Tradição cuida para sempre agradar quem faz ela acontecer!</h5>
+            <button onclick="fecharPopup()">Fechar</button>
+        </div>
+    </div>
+
+    <!-- Script -->
+    <script>
+        const formulario = document.getElementById("Formulario");
+        const popup = document.getElementById("popup");
+
+        formulario.addEventListener("submit", function(event) {
+            event.preventDefault(); // impede o envio real
+            popup.style.display = "flex"; // mostra o pop-up
+            formulario.reset(); // limpa o formulário
+        });
+
+        function fecharPopup() {
+            popup.style.display = "none";
+        }
+    </script>
+</body>
+</html>

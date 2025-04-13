@@ -1,0 +1,217 @@
+body{
+    background-color: rgb(178,34,34);
+}
+
+header{
+    background-color: rgb(60,179,113);
+    margin: 1px autos;
+    padding: 0;
+    text-align: center;
+    font-family: Apple Chancery, cursive;
+}
+
+#Principal{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#Abrobinhagrelhada{
+    border-radius: 50px;
+    background-color: aliceblue;
+    text-align: center;
+    margin-left: 1px;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 20px;
+}
+
+
+#AtumCebola{
+    border-radius: 50px;
+    background-color: aliceblue;
+    text-align: center;
+    margin-left: 1px;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 20px;
+}
+
+#BaconEMussarela{
+    border-radius: 50px;
+    background-color: aliceblue;
+    text-align: center;
+    margin-left: 1px;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 20px;
+}
+
+#Calabresa{
+    border-radius: 50px;
+    background-color: aliceblue;
+    text-align: center;
+    margin-left: 1px;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 20px;
+}
+
+#CalaBacon{
+    border-radius: 50px;
+    background-color: aliceblue;
+    text-align: center;
+    margin-left: 1px;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 20px;
+}
+
+#CarnesecaCatupiry{
+    border-radius: 50px;
+    background-color: aliceblue;
+    text-align: center;
+    margin-left: 1px;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 20px;
+}
+
+#CogumeloseParmesão{
+    border-radius: 50px;
+    background-color: aliceblue;
+    text-align: center;
+    margin-left: 1px;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 20px;
+}
+
+#escarola{
+    border-radius: 50px;
+    background-color: aliceblue;
+    text-align: center;
+    margin-left: 1px;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 20px;
+}
+
+#frangocomcatupiry{
+    border-radius: 50px;
+    background-color: aliceblue;
+    text-align: center;
+    margin-left: 1px;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 20px;
+}
+
+#frangocheddar{
+    border-radius: 50px;
+    background-color: aliceblue;
+    text-align: center;
+    margin-left: 1px;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 20px;
+}
+
+#Gorgonzolaparma{
+    border-radius: 50px;
+    background-color: aliceblue;
+    text-align: center;
+    margin-left: 1px;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 20px;
+}
+
+#Lombo{
+    border-radius: 50px;
+    background-color: aliceblue;
+    text-align: center;
+    margin-left: 1px;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 20px;
+}
+
+#margherita{
+    border-radius: 50px;
+    background-color: aliceblue;
+    text-align: center;
+    margin-left: 1px;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 20px;
+}
+
+#napolitana{
+    border-radius: 50px;
+    background-color: aliceblue;
+    text-align: center;
+    margin-left: 1px;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 20px;
+}
+
+#peperoni{
+    border-radius: 50px;
+    background-color: aliceblue;
+    text-align: center;
+    margin-left: 1px;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 20px;
+}
+
+#portuguesa{
+    border-radius: 50px;
+    background-color: aliceblue;
+    text-align: center;
+    margin-left: 1px;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 20px;
+}
+
+#quatroformagi{
+    border-radius: 50px;
+    background-color: aliceblue;
+    text-align: center;
+    margin-left: 1px;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 20px;
+}
+
+#rucula{
+    border-radius: 50px;
+    background-color: aliceblue;
+    text-align: center;
+    margin-left: 1px;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 20px;
+}
+
+#saboretradição{
+    border-radius: 50px;
+    background-color: aliceblue;
+    text-align: center;
+    margin-left: 1px;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 20px;
+}
+
+#toscana{
+    border-radius: 50px;
+    background-color: aliceblue;
+    text-align: center;
+    margin-left: 1px;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 20px;
+}
+
+#Bebidas{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#alcolicos{
+    border-radius: 10px;
+    background-color: aliceblue;
+    text-align: left;
+    margin-left: 1px;
+    font-size: 20px;
+}
+
+
+
+#Rodapé{
+    background-color:  rgb(60,179,113);
+    text-align: center;
+}
