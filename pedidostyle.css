@@ -43,3 +43,8 @@ button {
 button:hover {
     background-color: rgb(60,179,113);
 }
+
+#Rodapé{
+    background-color:  rgb(60,179,113);
+    text-align: center;
+}
