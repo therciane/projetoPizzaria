@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="contatoStyle.css">
     <img src="logo - Sabor&Tradição.png" alt="logo" width="150">
 </head>
+
 <body>
     <header>
         <h2>Fale com a Sabor&Tradição</h2>
@@ -20,7 +21,7 @@
 
     <div id="Principal">
         <form action="#" method="#" id="Formulario">
-            <input type="checkbox" id="sugestão" name="sugestão" value="Sugestão">
+            <input type="checkbox" id="sugestão" name="sugestão" value="Sugestão"> <!--inputs para caixas de textos-->
             <label for="sugestão">Sugestão</label><br>
             <input type="checkbox" id="elogio" name="elogio" value="Elogio">
             <label for="elogio">Elogio</label><br>
@@ -36,7 +37,7 @@
         </form>
     </div>
 
-     <!-- Pop-up -->
+     <!--Outra criação de janela pop-up por ser de fácil acesso-->
      <div class="popup-fundo" id="popup">
         <div class="popup-conteudo">
             <h1>Sua avaliação foi enviada com sucesso!!</h1>
@@ -52,7 +53,7 @@
         const popup = document.getElementById("popup");
 
         formulario.addEventListener("submit", function(event) {
-            event.preventDefault(); // impede o envio real
+            event.preventDefault(); // impede o envio "sem querer"
             popup.style.display = "flex"; // mostra o pop-up
             formulario.reset(); // limpa o formulário
         });
