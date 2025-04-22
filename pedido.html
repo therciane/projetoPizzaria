@@ -1,16 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
+!DOCTYPE html>
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pizzaria Sabor&Tradição</title>
     <link rel="stylesheet" href="pedidostyle.css">
     <link rel="shortcut icon" href="Sabor & Tradição.png" type="image/x-icon">
-    <img src="logo - Sabor&Tradição.png" alt="logo" width="150">
+    <img src="logo - Sabor&Tradição.png" alt="logo" width="100">
 </head>
 <body>
     <header>
-        <h2>Você está fazendo a melhor escolha de sua vida em escolher nós</h2>
+        <h2>Você está fazendo a melhor escolha de sua vida em nos escolher</h2>
         <a href="home.html" style="color: black;">Home</a>
         <a href="cadarpio.html" style="color: black;">Cardápio</a>
         <a href="acompanharPedido.html" style="color: black;">Acompnhar Pedido</a>
@@ -18,11 +18,11 @@
         <a href="criarPerfil.html" style="color: black;">Seu perfil</a>
     </header>
 
-    <div class="Conteiner" id="Principal">
-        <form action="pedidofeito.html" method="post" id="fazerPedido">
-            <label>Escolha a pizza:</label>
-            <select name="Pizza" id="Pizza">
-                <option value="pizza1">Abrobinha Grelhada</option>
+    <div class="Conteiner" id="Principal"> <!--Criação de classe para uma possivel reutilização de código-->
+        <form action="pedidofeito.html" method="post" id="fazerPedido"> <!--Metodo de ação quando o pedido for feito-->
+            <label>Escolha a pizza:</label> <!--label para realizar o pedido através dela-->
+            <select name="Pizza" id="Pizza"> <!--metodo de seleção-->
+                <option value="pizza1">Abrobinha Grelhada</option> <!--Valores para fácil identificação no pedido-->
                 <option value="pizza2">Atum e Cebola</option>
                 <option value="pizza3">Bacon e Mussarela de Búfala</option>
                 <option value="pizza4">Calabresa</option>
@@ -44,7 +44,7 @@
                 <option value="pizza20">Toscana</option>
             </select> <br>
 
-            <label for="Bebidas">Bebidas</label>
+            <label for="Bebidas">Bebidas</label> 
             <select name="Bebidas" id="Bebidas"> <br>
                 <option value="vinhomarques">Marques de Murrieta Reserva de 2018</option>
                 <option value="Emiliana">Emiliana Novas Gran Reserva Pinot Noir</option>
@@ -64,13 +64,14 @@
                 <option value="delvalle">Del Vale</option>
             </select>
 
-            <select name="entrega" id="entrega">
-                <option value="Entrega">Entrega á domicilio</option>
+            <select name="entrega" id="entrega"> <!--Aqui o cliente escolhe o tipo de entrega-->
+                <option value="Entrega">Entrega á domicilio</option> <!--Opção de escolha atraves de "pção" também-->
                 <option value="Retirada">Retirar no restaurante</option>
-                <p>Endereço do restaurante: Av. Aricanduva 455 (prox. Ao shopping Aricanduva)</p>
+                <p>Endereço do restaurante: Av. Aricanduva 455 (prox. Ao shopping Aricanduva)</p> 
             </select>
+
             <div>
-                <p>já possui perfil em nossa pizzaria?</p>
+                <p>já possui perfil em nossa pizzaria?</p> <!--Aqui perguntando sobre o cadastro-->
                 <input type="radio" value="true">
                 <a href="perfil.html">Sim, fazer login</a>
                 <input type="radio" value="false">
@@ -80,20 +81,18 @@
             
             <button type="submit">Enviar Pedido</button>
         </form>
-        <footer id="Rodapé">
-    <h3>Métodos de Pagamento aceitos</h3>
-    <img src="download (1).png" alt="metodos aceitos" width="220">
-</footer>
     </div>
+
+    <!--Parte de javaScript, onde há a criação de um pop-up-->
     <script>
         document.getElementById("fazerPedido").addEventListener("submit", function(event) {
             event.preventDefault(); // evita que o formulário envie do jeito padrão
         
-            // Captura dos valores selecionados
+            // Captura de pizzas selecionadas
             const pizza = document.getElementById("Pizza").value;
             const bebida = document.getElementById("Bebidas").value;
         
-            // Gerar ID aleatório com 6 dígitos
+            // Gerar ID de identificação de pizzas aleatório com 6 dígitos
             const idPedido = Math.floor(100000 + Math.random() * 900000);
         
             // Guardar tudo no localStorage
@@ -105,5 +104,11 @@
             window.location.href = "pedidofeito.html";
         });
         </script>
+
+<!--Rodapé normal-->
+<footer id="Rodapé">
+    <h3>Métodos de Pagamento aceitos</h3>
+    <img src="download (1).png" alt="metodos aceitos" width="220">
+</footer>
 </body>
 </html>
