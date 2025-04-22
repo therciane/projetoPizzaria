@@ -1,5 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
+!DOCTYPE html>
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,9 +8,10 @@
     <link rel="shortcut icon" href="Sabor & Tradição.png" type="image/x-icon">
     <img src="logo - Sabor&Tradição.png" alt="logo" width="150">
 </head>
+
 <body>
     <header>
-        <h2>Bem vindo a Pizzaria Sabor&Tradição!!</h2>
+        <h2>Falta pouco para matar a sua fome</h2>
         <a href="home.html" style="color: black;">Home</a>
         <a href="cadarpio.html" style="color: black;">Cardápio</a>
         <a href="pedido.html" style="color: black;">Fazer pedido</a>
@@ -18,7 +19,7 @@
         <a href="criarPerfil.html" style="color: black;">Seu perfil</a>
     </header>
 
-    <div id="Principal" style="background-color: aliceblue; border-radius: 20px;">
+    <div id="Principal" style="background-color: aliceblue; border-radius: 20px;"> <!--Aqui é feito o css in line, por ser mais "facil"-->
         <h2>Acompanhamento de Pedido</h2>
         <p>Seu número de pedido é: <strong id="codigoPedido"></strong></p>
         <p> <strong>Pizza: </strong> <span id="pizzaPedido"></span></p>
@@ -28,7 +29,7 @@
 
         <script>
             // Pega os dados do localStorage
-            document.getElementById("codigoPedido").innerText = localStorage.getItem("idPedido");
+            document.getElementById("codigoPedido").innerText = localStorage.getItem("idPedido"); //Aqui é ele mostra os dados da pizza do cliente
             document.getElementById("pizzaPedido").innerText = localStorage.getItem("pizzaEscolhida");
             document.getElementById("bebidaPedido").innerText = localStorage.getItem("bebidaEscolhida");
         </script>
