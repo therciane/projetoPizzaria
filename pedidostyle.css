@@ -1,4 +1,4 @@
-body {
+body { /*Estilização geral*/
     font-family: Apple Chancery, cursive;
     background-color: rgb(178,34,34);
     justify-content: center;
@@ -7,6 +7,7 @@ body {
     margin: 0;
 }
 
+/*Cabeçalho normal*/
 header{
     background-color: rgb(60,179,113);
     margin: 1px autos;
@@ -15,17 +16,18 @@ header{
     font-family: Apple Chancery, cursive;
 }
 
-.form-container {
-    background-color: aliceblue;
+/*Estilização da janela pop-up (ponto final por ser uma classe)*/
+.form-container { 
+    background-color: aliceblue; 
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgb(60,179,113);
+    box-shadow: 0 0 10px rgb(60,179,113); /*sombra da janela*/
     width: 300px;
 }
 
 label {
     display: flex;
-    margin-bottom: 5px;
+    margin-bottom: 5px; 
     color: rgb(178,34,34);
 }
 
@@ -40,7 +42,7 @@ button {
     cursor: pointer;
 }
 
-button:hover {
+button:hover { /*mudança de cor apos colocar o cursor em cima*/
     background-color: rgb(60,179,113);
 }
 
